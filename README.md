@@ -23,8 +23,8 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot designed 
 1. **Clone the Repository:**
 
 ```bash
-git clone <your-repo-link>
-cd <repo-folder-name>
+git clone https://github.com/aarishmkhan/RAG_Chatbot
+cd RAG_Chatbot
 ```
 
 2. **Install Python Dependencies:**
@@ -73,7 +73,7 @@ http://localhost:8501
 ### Interacting with the Chatbot
 
 - Input your queries in the chat interface.
-- The bot responds with relevant information from the provided sources or explicitly states if it cannot answer the query.
+- The bot responds with relevant information from the provided sources or explicitly states 'I don't know' if the query is beyond the knowledge base.
 
 ## Project Structure
 
@@ -100,20 +100,5 @@ http://localhost:8501
 
 (Refer to `requirements.txt` for exact package versions.)
 
-## Hosting
-
-To host your chatbot online, consider platforms like:
-- [Streamlit Cloud](https://streamlit.io/cloud)
-- [Heroku](https://www.heroku.com/)
-- [Railway](https://railway.app/)
-
 Ensure necessary environment variables and dependencies are configured on the hosting platform.
-
-## License
-
-MIT License - See [LICENSE](LICENSE) for more details.
-
----
-
-© 2024 RAG Chatbot Project
 
